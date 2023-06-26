@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    position: relative;
+}
+img{
+    height: 700px;
+}
+.carousel-inner p{
+    margin-bottom: 230px;
+}
+.carousel-inner a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: blue;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+}
+.carousel-inner a:hover{
+    background-color: darkmagenta;
+}
+.nav-item:hover{
+background: rgb(5, 191, 247);
+}
+.navbar
+{
+    background-color: rgb(36, 6, 6);
+}
+.abt{
+        margin-top: 50px;
+        text-align: center;
+}
+
+
+.abt .title{
+    text-transform: uppercase;
+        text-decoration: none;
+        background: rgb(43, 5, 13);
+        padding: 5px 20px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 5px;
+        text-align: justify;
+}
+.about{
+    margin-top: 50px;
+    text-align: justify;
+ 
+}
+.about h2{
+    margin-bottom: 10px;
+}
+.container-fluid h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(43, 5, 13);
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+}
+.container-fluid h2:hover{
+background-color: rgb(126, 182, 23);
+}
+
+.services{
+    margin-top: 50px;
+    text-align: center;
+}
+.title{
+    margin-bottom: 20px;
+}
+.container h2{
+   
+        text-transform: uppercase;
+        text-decoration: none;
+        background: rgb(43, 5, 13);
+        padding: 5px 20px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+.dropdown-menu .submenu{
+        display: none;
+        position: absolute;
+        left: 100%;
+        margin-bottom: 500px;
+
+}
+
+.pgm .card{
+    background: linear-gradient(45deg, #fbff00, #cc02ff);
+}
+.pgm .list-group-item:hover{
+    background: linear-gradient(45deg, #fbff00, #cc02ff);
+}
+.pgm .dropdown-menu .dropdown-item:hover{
+    background: linear-gradient(45deg, #fbff00, #cc02ff);
+}
+.pgm h1{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(43, 5, 13);
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    
+   
+}
+
+footer {
+        background: #101010;
+        padding: 86px 0;
+}
+
+.single-content {
+        text-align: center;
+        padding: 10px 0;
+}
+
+.single-box{
+    text-align: center;
+}
+.single-box h2{
+    background: linear-gradient(45deg, #fbff00, #cc02ff);
+}
+.single-box h2:hover{
+    background-color: blue;
+}
+
+.single-box p {
+        color: #fff;
+        line-height: 1.9;
+      
+}
+
+.single-box h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+}
+
+.single-box .card-area i {
+        color: #ffffff;
+        font-size: 20px;
+        margin-right: 10px;
+}
+
+.single-box ul {
+        list-style: none;
+        padding: 0;
+}
+
+.single-box ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 2.5;
+        font-weight: 100;
+}
+
+.single-box h2 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+}
+.single-box .btn:hover{
+    background: linear-gradient(45deg, #fbff00, #cc02ff);
+}
+
+@media (max-width: 767px) {
+        .single-box {
+            margin-bottom: 50px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+        .single-box {
+            margin-bottom: 50px;
+        }
+}
+
+.regi{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(43, 5, 13);
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.regi:hover{
+    background: linear-gradient(45deg, #fbff00, #cc02ff);
+}
+
+.appliform{
+    
+    min-height: 100%;
+}
+.appliform .btn:hover{
+ background-color: blue;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 30px 45px;
+    box-shadow: 5px 25px 35px #3535356b;
+}
+
+.wrapper label {
+    display: block;
+    padding-bottom: 0.2rem;
+}
+
+.wrapper .form .row {
+    padding: 0.6rem 0;
+}
+
+.wrapper .form .row .form-control {
+    box-shadow: none;
+}
+
+.wrapper .form .option {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+.wrapper .form .option input {
+    opacity: 0;
+}
+
+.wrapper .form .checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+}
+
+.wrapper .form .option input:checked~.checkmark:after {
+    display: block;
+}
+
+.wrapper .form .option:hover .checkmark {
+    background: #f3f3f3;
+}
+
+.wrapper .form .option .checkmark:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms ease-in-out 0s;
+}
+
+.wrapper .form .option input[type="radio"]:checked~.checkmark {
+    background: #fff;
+    transition: 300ms ease-in-out 0s;
+}
+
+.wrapper .form .option input[type="radio"]:checked~.checkmark:after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#sub {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+#sub:focus {
+    outline: none;
+}
+
+@media(max-width: 768.5px) {
+    .wrapper {
+        margin: 30px;
+    }
+
+    .wrapper .form .row {
+        padding: 0;
+    }
+}
+
+@media(max-width: 400px) {
+    .wrapper {
+        padding: 25px;
+        margin: 20px;
+    }
+}
+    
